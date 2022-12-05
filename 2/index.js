@@ -6,7 +6,7 @@ let object = {
 console.log("Загрузка")
 let promise = new Promise
 (function(resolve){
-    // let jsonData = JSON.stringify(object);
+    let jsonData = JSON.stringify(object);
     resolve(jsonData)
 }).then(function(res){
     setTimeout(function(){
